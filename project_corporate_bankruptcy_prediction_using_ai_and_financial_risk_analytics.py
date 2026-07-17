@@ -48,7 +48,7 @@ Load the dataset from the current directory
 """
 
 # Load data
-df = pd.read_csv('american_bankruptcy.csv')
+df = pd.read_csv('/dataset/bankruptcy_dataset.csv')
 print(f"Dataset Shape: {df.shape}")
 df.head()
 
